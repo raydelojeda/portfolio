@@ -1,5 +1,5 @@
 <?php require '../config.php';?>
-<link rel="stylesheet" href="<?php echo $base_url;?>/assets/plugins/bxslider/jquery.bxslider.css">
+<link rel="stylesheet" href="../assets/plugins/bxslider/jquery.bxslider.css">
 
 <div class="container">
 
@@ -37,49 +37,49 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/0.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/0.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/1.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/1.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/2.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/2.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/3.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/3.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/4.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/4.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/5.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/5.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/6.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/6.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/7.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/7.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/8.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/8.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/9.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/9.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/10.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/10.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/11.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/11.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/12.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/12.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/13.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/13.png" class="d-block w-100 myImg">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo $base_url;?>/assets/img/apps/acs/14.png" class="d-block w-100 myImg">
+                        <img src="../assets/img/apps/acs/14.png" class="d-block w-100 myImg">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -131,9 +131,9 @@
 
 </div>
 
-<script type="text/javascript" src="<?php echo $base_url;?>/assets/plugins/bxslider/jquery.bxslider.js"></script>
+<script type="text/javascript" src="../assets/plugins/bxslider/jquery.bxslider.js"></script>
 <!-- JS Page Level -->
-<script type="text/javascript" src="<?php echo $base_url;?>/assets/js/app.js"></script>
+<script type="text/javascript" src="../assets/js/app.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();

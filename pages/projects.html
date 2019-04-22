@@ -37,13 +37,13 @@
 
                 <div style="background-color:#eee;" class="thumbnail_container">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo $base_url;?>/assets/img/apps/acs/0.png" alt="Advanced Cosmetic Surgery" />
+                        <img class="img-responsive" src="../assets/img/apps/acs/0.png" alt="Advanced Cosmetic Surgery" />
                     </div>
                 </div>
 
                 <div class="mask">
                     <h2>Advanced Cosmetic Surgery</h2>
-                    <p>ACS is a portal web where patients can log in and book appointments in the schedule of esthetician doctors<?php echo $base_url;?>.</p>
+                    <p>ACS is a portal web where patients can log in and book appointments in the schedule of esthetician doctors...</p>
                     <a href="#" data-link="acs.php" class="info">View More</a>
                 </div>
             </div>
@@ -54,13 +54,13 @@
 
                 <div style="background-color:#eee;" class="thumbnail_container post_media">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo $base_url;?>/assets/img/apps/ehhs/1.png" alt="EHHS" />
+                        <img class="img-responsive" src="../assets/img/apps/ehhs/1.png" alt="EHHS" />
                     </div>
                 </div>
 
                 <div class="mask">
                     <h2>EHHS</h2>
-                    <p>Esperanza Home Health Service is a software to manage the employees and their documentation, clients, jobs<?php echo $base_url;?>.</p>
+                    <p>Esperanza Home Health Service is a software to manage the employees and their documentation, clients, jobs...</p>
                     <a href="#" data-link="ehhs.php" class="info">View More</a>
                 </div>
             </div>
@@ -73,7 +73,7 @@
 
                 <div style="background-color:#eee;" class="thumbnail_container">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo $base_url;?>/assets/img/apps/airbosch/1.png" alt="Bosch Airconditioning" />
+                        <img class="img-responsive" src="../assets/img/apps/airbosch/1.png" alt="Bosch Airconditioning" />
                     </div>
                 </div>
 
@@ -90,7 +90,7 @@
 
                 <div style="background-color:#eee;" class="thumbnail_container post_media">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo $base_url;?>/assets/img/apps/mclopez/MCLopez%201.png" alt="MCLopez" />
+                        <img class="img-responsive" src="../assets/img/apps/mclopez/MCLopez%201.png" alt="MCLopez" />
                     </div>
                 </div>
 
@@ -109,7 +109,7 @@
 
                 <div style="background-color:#eee;" class="thumbnail_container">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo $base_url;?>/assets/img/apps/atenas/Atenas%2012.png" alt="Unidad Educativa Atenas" />
+                        <img class="img-responsive" src="../assets/img/apps/atenas/Atenas%2012.png" alt="Unidad Educativa Atenas" />
                     </div>
                 </div>
 
@@ -126,7 +126,7 @@
 
                 <div style="background-color:#eee;" class="thumbnail_container post_media">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo $base_url;?>/assets/img/apps/minerva/1.png" alt="Minerva" />
+                        <img class="img-responsive" src="../assets/img/apps/minerva/1.png" alt="Minerva" />
                     </div>
                 </div>
 
@@ -145,7 +145,7 @@
 
                 <div style="background-color:#eee;" class="thumbnail_container">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo $base_url;?>/assets/img/apps/ipcuba/8.png" alt="IPCuba" />
+                        <img class="img-responsive" src="../assets/img/apps/ipcuba/8.png" alt="IPCuba" />
                     </div>
                 </div>
 
@@ -171,7 +171,7 @@
             var url=$(this).attr('data-link');
 
             $.ajax({
-                url: '<?php echo $base_url;?>' + '/pages/apps/' + url
+                url: '..' + '/pages/apps/' + url
             }).done(function(response, textStatus, jqXHR)
             {
                 if(response)

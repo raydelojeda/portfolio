@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Raydel Ojeda | Portfolio</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="../assets/bootstrap_v4.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/mycss.css">
+
+    <!-- CSS Implementing Plugins -->
+    <script src="https://use.fontawesome.com/f7001a10f3.js"></script>
+
+    <!-- CSS Page Style -->
+    <link rel="stylesheet" href="../assets/css/pages/feature_timeline2.css">
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="../assets/css/themes/default.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/pages/page_one.css">
+
+    <script src="../assets/js/jQuery%20v3.4.0.js"></script>
+
+    <!-- JS Global Compulsory -->
+    <script src="../assets/bootstrap_v4.3.1/js/bootstrap.js" ></script>
+    <!-- JS Page Level -->
+
+
+</head>
+
+<script>
+    var base_url='http://localhost/portfolio';
+</script>
+
+<body>
+    <div class="wrapper">
+
+        <div id="nav_bar"></div>
+
+        <!--=== Content Part ===-->
+        <div class="wrapper" id="main-content" style="padding-top: 25px;">
+            <?php require 'home.php';?>
+        </div><!--/container-->
+        <!--=== End Content Part ===-->
+
+
+        <div id="myModalimg" class="modalimg">
+            <span class="closeimg">&times;</span>
+            <img class="modalimg-content" id="img01" style="image-orientation: from-image;">
+            <div id="caption"></div>
+        </div>
+
+        <div id="footer"></div>
+
+<script type="text/javascript">
+
+    $(function(){
+        $("#nav_bar").load("navbar.html");
+        $("#footer").load("footer.html");
+    });
+
+    $(document).ready(function ()
+    {
+        $('body').on('click', '.myImg',function () {
+            var element = $(this);
+
+            var modal = document.getElementById('myModalimg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            modal.style.display = "block";
+
+            if (typeof element.attr("src") === 'undefined')
+                modalImg.src = element.attr("data-link");
+            else
+                modalImg.src = element.attr("src");
+
+            if(element.attr("alt")!="" && element.attr("alt") === 'undefined')
+                captionText.innerHTML = element.attr("alt");
+
+            var span = document.getElementsByClassName("closeimg")[0];
+
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+        });
+    });
+
+</script>
