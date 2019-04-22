@@ -15,15 +15,12 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/bootstrap_v4.3.1/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/mycss.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/plugins/line-icons/line-icons.css">
-    <link rel="stylesheet" href="../assets/plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/plugins/fancybox/source/jquery.fancybox.css">
+    <script src="https://use.fontawesome.com/f7001a10f3.js"></script>
 
     <!-- CSS Page Style -->    
     <link rel="stylesheet" href="../assets/css/pages/feature_timeline2.css">
@@ -33,4 +30,14 @@
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="../assets/css/custom.css">
-</head> 
+    <link rel="stylesheet" href="../assets/css/pages/page_one.css">
+
+    <script src="../assets/js/jQuery%20v3.4.0.js"></script>
+
+    <!-- JS Global Compulsory -->
+    <script src="../assets/bootstrap_v4.3.1/js/bootstrap.js" ></script>
+    <!-- JS Page Level -->
+
+
+</head>
+<?php require 'config.php';?>

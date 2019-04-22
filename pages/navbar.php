@@ -31,23 +31,19 @@
                         </a>
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#" data-link="home.php">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Work & Education</span></a>
+                                <a class="nav-link" href="#" data-link="timeline.php">Work & Education</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</span></a>
+                                <a class="nav-link" href="#" data-link="projects.php">Projects</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">DB Design</span></a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">GitHub</span></a>
+                                <a class="nav-link" href="#" data-link="erd.php">DB Design</a>
                             </li>
 
                         </ul>
@@ -58,3 +54,35 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+
+    $(document).ready(function()
+    {
+        $('.nav-link').on('click', function ()
+        {
+            var this_one=this;
+
+            $('.nav-item').each(function () {
+                $(this).removeClass('active');
+                $(this).parent().attr('style', '');
+            });
+
+            $(this_one).parent().addClass('active');
+
+            var url=$(this_one).attr('data-link');
+
+            $.ajax({
+                url: '<?php echo $base_url;?>' + '/pages/' + url
+            }).done(function(response, textStatus, jqXHR)
+            {
+                if(response)
+                {
+                    $('#main-content').empty();
+                    $('#main-content').html(response);
+                }
+            });
+        });
+    });
+
+</script>

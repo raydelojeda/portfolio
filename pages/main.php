@@ -6,17 +6,8 @@
 <?php require_once 'navbar.php';?>
 
         <!--=== Content Part ===-->
-        <div class="container content" style="margin-top: 0px;">
-            <div class="row">
-                <!-- Begin Content -->
-                <div class="col-md-12">
-
-                    <?php //require_once 'timeline.php'?>
-                    <?php require_once 'home.php'?>
-
-                </div>
-                <!-- End Content -->
-            </div>
+        <div class="wrapper" id="main-content" style="padding-top: 25px;">
+            <?php require 'home.php';?>
         </div><!--/container-->
         <!--=== End Content Part ===-->
 
@@ -29,12 +20,11 @@
 
 <?php require_once 'footer.php';?>
 
-<script>
+<script type="text/javascript">
 
     $(document).ready(function ()
     {
-
-        $('.myImg').on('click', function () {
+        $('body').on('click', '.myImg',function () {
             var element = $(this);
 
             var modal = document.getElementById('myModalimg');
@@ -48,7 +38,7 @@
                 modalImg.src = element.attr("src");
 
             if(element.attr("alt")!="" && element.attr("alt") === 'undefined')
-            captionText.innerHTML = element.attr("alt");
+                captionText.innerHTML = element.attr("alt");
 
             var span = document.getElementsByClassName("closeimg")[0];
 
@@ -56,8 +46,6 @@
                 modal.style.display = "none";
             }
         });
-
     });
-
 
 </script>
