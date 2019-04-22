@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bcb22d0-7573-4ced-965e-9bd8aa61c558" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/main.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/footer_section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/main.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/erd.php" afterPath="$PROJECT_DIR$/pages/erd.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/home.php" afterPath="$PROJECT_DIR$/pages/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/navbar.php" afterPath="$PROJECT_DIR$/pages/navbar.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/projects.php" afterPath="$PROJECT_DIR$/pages/projects.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/timeline.php" afterPath="$PROJECT_DIR$/pages/timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/apps/acs.php" afterPath="$PROJECT_DIR$/pages/apps/acs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/config.php" afterPath="$PROJECT_DIR$/pages/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
-    </list>
+    <list default="true" id="4bcb22d0-7573-4ced-965e-9bd8aa61c558" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +252,7 @@
       <workItem from="1554922572425" duration="626000" />
       <workItem from="1555334909598" duration="40075000" />
       <workItem from="1555593513148" duration="2838000" />
-      <workItem from="1555938500633" duration="12790000" />
+      <workItem from="1555938500633" duration="12813000" />
     </task>
     <task id="LOCAL-00001" summary="master">
       <created>1554917106837</created>
@@ -290,11 +275,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555956084177</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="html">
+      <created>1555959068351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555959068351</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98401000" />
+    <option name="totallyTimeSpent" value="98424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="987" extended-state="6" />
@@ -329,7 +321,8 @@
     <MESSAGE value="master" />
     <MESSAGE value="bs4.3.1" />
     <MESSAGE value="index" />
-    <option name="LAST_COMMIT_MESSAGE" value="index" />
+    <MESSAGE value="html" />
+    <option name="LAST_COMMIT_MESSAGE" value="html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
