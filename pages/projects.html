@@ -27,6 +27,22 @@
         margin: auto;
     }
 
+    .view_more{
+        width: 100px;position: absolute;bottom:10px;left: 50%;margin: 10px 0 0 -55px;
+        color: #fff;
+        padding: 5px 12px;
+        text-decoration: none;
+        overflow: hidden;
+        text-transform: uppercase;
+        background: #333;
+    }
+
+    .view_more:hover{
+        background: #72c02c;
+        color: #fff;
+        text-decoration: none;
+    }
+
 </style>
 
 <!--=== Content Part ===-->
@@ -44,7 +60,7 @@
                 <div class="mask">
                     <h2><a href="#" data-link="acs.html" class="link_project">Advanced Cosmetic Surgery</a></h2>
                     <p>ACS is a portal web where patients can log in and book appointments in the schedule of esthetician doctors...</p>
-                    <a href="#" data-link="acs.html" class="info d-none d-sm-block">View More</a>
+                    <a href="#" data-link="acs.html" class="view_more d-none d-sm-block" style="">View More</a>
                 </div>
             </div>
         </div>
@@ -61,7 +77,7 @@
                 <div class="mask">
                     <h2><a href="#" data-link="ehhs.html" class="link_project">EHHS</a></h2>
                     <p>Esperanza Home Health Service is a software to manage the employees and their documentation, clients, jobs...</p>
-                    <a href="#" data-link="ehhs.html" class="info d-none d-sm-block">View More</a>
+                    <a href="#" data-link="ehhs.html" class="view_more d-none d-sm-block">View More</a>
                 </div>
             </div>
         </div>
@@ -80,7 +96,7 @@
                 <div class="mask">
                     <h2><a href="#" data-link="bosch.html" class="link_project">Bosch Airconditioning Website</a></h2>
                     <p>Website of the Bosch Air Conditioning company located in Tampa, Florida.</p>
-                    <a href="#" data-link="bosch.html" class="info d-none d-sm-block">View More</a>
+                    <a href="#" data-link="bosch.html" class="view_more d-none d-sm-block">View More</a>
                 </div>
             </div>
         </div>
@@ -97,7 +113,7 @@
                 <div class="mask">
                     <h2><a href="#" data-link="mclopez.html" class="link_project">MCLopez Website</a></h2>
                     <p>Website of the MCLopez business located in Ambato, Ecuador.</p>
-                    <a href="#" data-link="mclopez.html" class="info d-none d-sm-block">View More</a>
+                    <a href="#" data-link="mclopez.html" class="view_more d-none d-sm-block">View More</a>
                 </div>
             </div>
         </div>
@@ -116,7 +132,7 @@
                 <div class="mask">
                     <h2><a href="#" data-link="atenas.html" class="link_project">Atenas Website</a></h2>
                     <p>Website of the School Atenas located in Ambato, Ecuador.</p>
-                    <a href="#" data-link="atenas.html" class="info d-none d-sm-block">View More</a>
+                    <a href="#" data-link="atenas.html" class="view_more d-none d-sm-block">View More</a>
                 </div>
             </div>
         </div>
@@ -133,7 +149,7 @@
                 <div class="mask">
                     <h2><a href="#" data-link="minerva.html" class="link_project">ERP Minerva</a></h2>
                     <p>Suite of modules that manages core business processes such as: Accounting, Sales, Human Resources, Academic, Library, Admissions and enrollment, etc...</p>
-                    <a href="#" data-link="minerva.html" class="info d-none d-sm-block">View More</a>
+                    <a href="#" data-link="minerva.html" class="view_more d-none d-sm-block">View More</a>
                 </div>
             </div>
         </div>
@@ -152,7 +168,7 @@
                 <div class="mask">
                     <h2><a href="#" data-link="ipcuba.html" class="link_project">IPCuba</a></h2>
                     <p>The main goal of this software is to serve as data entry of more than 20 000 prices per month around the country and to compute this data to get the inflation in Cuba. It is hosted in a main server...</p>
-                    <a href="#" data-link="ipcuba.php" class="info d-none d-sm-block">View More</a>
+                    <a href="#" data-link="ipcuba.php" class="view_more d-none d-sm-block">View More</a>
                 </div>
             </div>
         </div>
@@ -166,7 +182,7 @@
 
     $(document).ready(function()
     {
-        $('.info d-none d-sm-block,.link_project').on('click', function ()
+        $('.view_more d-none d-sm-block,.link_project').on('click', function ()
         {
             var url=$(this).attr('data-link');
 
