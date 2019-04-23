@@ -280,7 +280,8 @@
         100% { transform: translateY(0); }
     }
 </style>
-<div class="container">
+
+<div class="container d-none d-sm-block">
     <div id="all">
         <div id="allcontent">
             <div id="maincontent">
@@ -312,14 +313,12 @@
                 <div class="portfolio"><span class="txt">Siveser</span>
                     <img src="../assets/img/erd/SIVESER.jpg" alt="Portfolio img">
                 </div>
-                <div class="portfolio">
-                    <span class="txt">Minerva</span>
+                <div class="portfolio"><span class="txt">Minerva</span>
                     <img src="../assets/img/erd/Minerva.png" alt="Portfolio img">
                 </div>
 
                 <div class="portfolio"><span class="txt">RentaCar</span>
                     <img src="../assets/img/erd/RentaCar.png" alt="Portfolio img">
-                    
                 </div>
             </div>
             <div id="navi"></div><div class="zoom"><i class="fa fa-search-plus" aria-hidden="true"></i> <i class="fa fa-search-minus" aria-hidden="true"></i></div>
@@ -327,10 +326,42 @@
     </div>
 </div>
 
+<div class="container d-sm-none d-md-block">
+    <div id="all">
+        <div id="allcontent">
+            <div id="maincontent">
+
+                <div class="col-12 text-center margin-bottom-10">
+                    <div class="card panel-dark">
+                        <div class="panel-heading">
+                            <h6 style="color: #fff;">Gebiat</h6>
+                        </div>
+                        <div class="panel-body" style="padding:0px;">
+                            <p><img src="../assets/img/erd/GEBIAT.jpg" alt="Portfolio img" style="width: 100%;"></p>
+                        </div>
+                    </div>
+                    <div class="zoom"><i class="fa fa-search-plus" aria-hidden="true"></i> <i class="fa fa-search-minus" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="col-12 text-center margin-bottom-10">
+                    <div class="card panel-dark">
+                        <div class="panel-heading">
+                            <h6 style="color: #fff;">ACS CIQ</h6>
+                        </div>
+                        <div class="panel-body" style="padding:0px;">
+                            <p><img src="../assets/img/erd/acs_ciq.png" alt="Portfolio img" style="width: 100%;"></p>
+                        </div>
+                    </div>
+                    <div class="zoom"><i class="fa fa-search-plus" aria-hidden="true"></i> <i class="fa fa-search-minus" aria-hidden="true"></i></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <script>
-
-
-
     $('.portfolio').each(function(index)
     {
         $(this).attr('id', 'img' + (index + 1));
