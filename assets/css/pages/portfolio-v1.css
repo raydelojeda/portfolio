@@ -68,7 +68,7 @@
    -ms-transition: all 0.6s ease-in-out;
    transition: all 0.6s ease-in-out;
 }
-.view-tenth .mask {
+.view-tenth .mask1 {
    -webkit-transition: all 0.5s linear;
    -moz-transition: all 0.5s linear;
    -o-transition: all 0.5s linear;
@@ -128,7 +128,7 @@
    -ms-transition: all 0.5s linear;
    transition: all 0.5s linear;
 }
-.view-tenth:hover img {
+.view-tenth img {
    -webkit-transform: scale(2) rotate(10deg);
    -moz-transform: scale(2) rotate(10deg);
    -o-transform: scale(2) rotate(10deg);
@@ -138,12 +138,12 @@
    filter: alpha(opacity=30);
    opacity: 0.3;
 }
-.view-tenth:hover .mask {
+.view-tenth .mask {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
 }
-.view-tenth:hover h2,.view-tenth:hover p,.view-tenth:hover a.info {
+.view-tenth h2,.view-tenth p,.view-tenth a.info {
    -webkit-transform: scale(1);
    -moz-transform: scale(1);
    -o-transform: scale(1);

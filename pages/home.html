@@ -5,26 +5,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="funny-boxes funny-boxes-top-sea">
+                    <div class="tag-box tag-box-v1 box-shadow shadow-effect-1">
                         <div class="row">
-                            <div class="col-md-2 funny-boxes-img">
-                                <img alt="" src="../assets/img/me.png" class="img-responsive" style="opacity:0.8;-webkit-filter: grayscale(100%);filter: grayscale(100%);">
-                                <ul class="list-unstyled">
+                            <div class="col-6 col-md-2 funny-boxes-img">
+                                <img alt="Raydel Ojeda" src="../assets/img/me.png" class="img-responsive" style="opacity:0.8;-webkit-filter: grayscale(50%);filter: grayscale(50%);max-width: 90%">
+                                <ul class="list-unstyled" style="margin-bottom: 0px;">
                                     <li><i class="fa fa-briefcase"></i> MacTutor Inc</li>
                                     <li><i class="fa fa-map-marker"></i> Clearwater, Fl</li>
                                 </ul>
                             </div>
                             <div class="col-md-8">
-                                <blockquote class="bq-text-lg text-right">
+                                <blockquote class="bq-text-lg bq-dark" style="border-left: 3px solid #585f69;margin-left: -20px;">
                                     <p>"I just know that I don't know anything, the technology is moving so fast, what I know today will become obsolete tomorrow."</p>
                                     <small><em>Raydel Ojeda</em></small>
                                 </blockquote>
                             </div>
-                            <div class="col-md-2 text-center">
-                                <h2>Resume</h2>
-                                <p>
-                                    <i class="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i>
-                                </p>
+                            <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
+                                <!--<div class="card panel-dark">
+                                    <div class="panel-heading">
+                                        <h3><i class="fa fa-file-pdf-o"></i> Resume</h3>
+                                    </div>
+                                    <div class="panel-body" style="padding: 30px;">
+                                        <p><i class="fa fa-cloud-download fa-3x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>-->
+                                <div class="bg-light">
+                                    <p><i class="fa fa-cloud-download fa-3x" aria-hidden="true"></i></p><h6>Resume</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -550,23 +557,79 @@
         </div>
     </div>
 
-    <div class="one-page-inner one-red">
+    <div class="one-page-inner one-default">
         <div class="container">
-            <h1>At vero eos et accusamus et iusto odio dignissimos</h1>
+            <h1>Exercise in React from <a target="_blank" href="https://reactjs.org/tutorial/tutorial.html">reactjs.org</a></h1>
             <div class="row">
-                <div class="col-md-6">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
-                    <p>Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat.</p>
-                    <a class="btn-u btn-u-green one-page-btn"><i class="fa fa-comments-o"></i> libero adipiscing</a>
+                <div class="col-md-6 margin-bottom-10">
+                    <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="js,result" data-user="rof29141" data-slug-hash="rbZvyB" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Tic Tac Toe Exercise">
+                        <span>See the Pen <a href="https://codepen.io/rof29141/pen/rbZvyB/">
+                        Tic Tac Toe Exercise</a> by Raydel (<a href="https://codepen.io/rof29141">@rof29141</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/new/img10.jpg" class="img-responsive margin-bottom-10" alt="">
+                <div class="col-md-6 margin-bottom-10">
+                    <textarea class="form-control" style="height: 265px;">
+function Square (p) {
+    return (
+        <button className="square" onClick={p.onClick}>
+            {p.value}
+        </button>
+    );
+}
+
+class Board extends React.Component {
+constructor(props) {
+    super(props);
+    this.state = {
+        squares: Array(9).fill(null),
+        xNext:true,
+    };
+}
+
+renderSquare(i) {
+    return (<Square value={this.state.squares[i]} onClick={() => this.handleClick(i)}/>);
+}
+
+handleClick(i) {
+    const squares = this.state.squares.slice();
+    var next;
+
+    if(!squares[i])
+    {
+        if(this.state.xNext)
+        {
+            squares[i] = 'X';
+            next=false;
+        }
+        else
+        {
+            squares[i] = 'O';
+            next=true;
+        }
+
+        this.setState({
+            squares: squares,
+            xNext:next,
+        });
+    }
+}
+render() {
+    const winner = calculateWinner(this.state.squares);
+    let status;
+    if (winner) {
+    status = 'Winner: ' + winner;
+    } else {
+    status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+}
+</textarea>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="one-page-inner one-default">
+    <div class="one-page-inner one-green">
         <div class="container">
             <h1>At vero eos et accusamus et iusto odio dignissimos</h1>
             <div class="row">
