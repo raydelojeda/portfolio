@@ -96,7 +96,7 @@
 }
 
 .sky-form .button {
-  background: #72c02c;
+  background: #004cac;
 }
 
 /**/
@@ -158,7 +158,7 @@
   border-color: #999;  
 }
 .sky-form .rating input:checked ~ label {
-  color: #72c02c; 
+  color: #004cac;
 }
 
 /**/

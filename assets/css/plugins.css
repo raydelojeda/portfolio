@@ -205,7 +205,7 @@
 
 .owl-btn:hover {
   color: #fff;
-  background: #72c02c;
+  background: #004cac;
 }
 
 /*Owl Carousel v1*/
@@ -383,7 +383,7 @@
    min-width: 65px;
    font-size: 30px;
    position: relative;
-   background: #72c02c;
+   background: #004cac;
 }
 
 .counters span.counter-icon i:after {
@@ -394,7 +394,7 @@
    bottom: -7px;
    display: block; 
    position: absolute;
-   border-top: 7px solid #72c02c;
+   border-top: 7px solid #004cac;
    border-left: 7px solid transparent;
    border-right: 7px solid transparent;
    border-left-style: inset; /*FF fixes*/
@@ -527,7 +527,7 @@ i.style-switcher-btn-option:hover {
 }
 
 .style-switcher li.theme-default {
-   background: #72c02c;
+   background: #004cac;
 }
 .style-switcher li.theme-blue {
    background: #3498db;

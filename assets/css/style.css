@@ -223,7 +223,7 @@
 }
 
 .topbar-v1 .top-v1-data li a:hover i {
-	color: #72c02c;
+	color: #004cac;
 }
 
 /*Responsive Topbar v1*/
@@ -298,7 +298,7 @@
 }
 
 .header .navbar-default .navbar-nav > .active > a {
-	color: #72c02c;
+	color: #004cac;
 }
 
 /*Dropdown*/
@@ -310,7 +310,7 @@
 .navbar-toggle,
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background: #72c02c;
+	background: #004cac;
 	padding: 6px 10px 2px;
 }
 
@@ -344,15 +344,15 @@
 	}
 
 	.header .navbar-default .navbar-nav > li > a:hover {
-		color: #72c02c;
+		color: #004cac;
 	}
 
 	.header .navbar-default .navbar-nav > .active > a,
 	.header .navbar-default .navbar-nav > .active > a:hover,
 	.header .navbar-default .navbar-nav > .active > a:focus {
 		color: #fff;
-		background: #72c02c;
-		/*border-bottom: solid 2px #72c02c;*/
+		background: #004cac;
+		/*border-bottom: solid 2px #004cac;*/
 	}
 
 	.header .dropdown-submenu li a { 
@@ -383,7 +383,7 @@
 
 	.header .navbar-default .navbar-nav > li > a:hover,
 	.header .navbar-default .navbar-nav > .active > a {
-		border-bottom: solid 2px #72c02c;
+		border-bottom: solid 2px #004cac;
 	}
 	
 	.header .navbar-default .navbar-nav > li > a,
@@ -410,7 +410,7 @@
 		border-radius: 0; 
 		z-index: 9999 !important;
 		margin-top: -2px !important; 
-		border-top: solid 2px #72c02c; 
+		border-top: solid 2px #004cac;
 		border-bottom: solid 2px #687074; 
 	}
 
@@ -457,9 +457,9 @@
 }
 
 .header .navbar .nav > li > .search:hover {
-	color: #72c02c;
+	color: #004cac;
 	background: #f7f7f7;
-	border-bottom-color: #72c02c;
+	border-bottom-color: #004cac;
 }
 
 .header .navbar .search-open {
@@ -547,7 +547,7 @@
 }
 
 .header-v1 .navbar .nav > li > .search:hover {
-	background: #72c02c;
+	background: #004cac;
 	color: #fff !important;
 }
 
@@ -578,14 +578,14 @@
 	.header-v1 .navbar-default .navbar-nav > li > a:hover,
 	.header-v1 .navbar-default .navbar-nav > li > a:focus {
 		color: #fff !important;
-		background: #72c02c !important;
+		background: #004cac !important;
 	}
 
 	.header-v1 .navbar-default .navbar-nav > .open > a,
 	.header-v1 .navbar-default .navbar-nav > .open > a:hover,
 	.header-v1 .navbar-default .navbar-nav > .open > a:focus {
 		color: #fff;
-		background: #72c02c;		
+		background: #004cac;
 	}
 
 	/*Dropdown Menu*/
@@ -876,7 +876,7 @@
 .service .service-icon {
 	float: left;
 	padding: 10px;
-	color: #72c02c;
+	color: #004cac;
 	font-size: 35px;  
 	text-align: center;
     -webkit-transition: all 0.4s ease-in-out;
@@ -943,7 +943,7 @@
 }
 
 .recent-work a:hover span {
-	border-bottom: solid 2px #72c02c;
+	border-bottom: solid 2px #004cac;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -989,7 +989,7 @@
 } 
 
 .footer a {
-	color: #72c02c;
+	color: #004cac;
 }
 .footer a:hover {
 	color: #a8f85f;
@@ -1058,7 +1058,7 @@
 
 .copyright a {
 	margin: 0 5px;
-	color: #72c02c;
+	color: #004cac;
 }
 .copyright a:hover {
 	color: #a8f85f;
@@ -1094,7 +1094,7 @@
 }
 .breadcrumb li.active,
 .breadcrumb li a:hover {
-	color: #72c02c;
+	color: #004cac;
 	text-decoration: none;
 }
 
@@ -1148,7 +1148,7 @@ a.thumbnail {
 
 .thumbnail h3 a:hover,
 .thumbnail-style h3 a:hover {
-	color: #72c02c;
+	color: #004cac;
 	text-decoration: none;
 }
 
@@ -1163,7 +1163,7 @@ a.thumbnail {
 	color: #fff;
 	padding: 1px 6px;
 	position: absolute;
-	background: #72c02c;
+	background: #004cac;
 	display: inline-block; 
 }
 .thumbnail-style a.btn-more:hover {
@@ -1257,14 +1257,14 @@ a.thumbnail {
 }
 
 .posts .dl-horizontal dd a:hover { 
-	color: #72c02c; 
+	color: #004cac;
 	text-decoration: none;
 }
 
 .posts .dl-horizontal:hover dt img,
 .posts .dl-horizontal:hover dd a { 
-	color: #72c02c;
-	border-color: #72c02c !important;
+	color: #004cac;
+	border-color: #004cac !important;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -1299,7 +1299,7 @@ a.thumbnail {
 
 .team ul.team-socail li i:hover {
 	color: #fff;
-	background: #72c02c;
+	background: #004cac;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1319,7 +1319,7 @@ a.thumbnail {
 }
 
 .team .thumbnail-style:hover h3 a {
-	color: #72c02c !important;
+	color: #004cac !important;
 }
 
 .team .thumbnail-style small {
@@ -1382,7 +1382,7 @@ a.thumbnail {
 	text-decoration: underline;
 }
 .privacy a:hover {
-	color: #72c02c;
+	color: #004cac;
 	text-decoration: none;
 }
 
@@ -1438,7 +1438,7 @@ ul.blog-tags a i {
 }
 
 ul.blog-tags a:hover {
-	background: #72c02c;
+	background: #004cac;
 }
 
 ul.blog-tags a:hover,
@@ -1463,7 +1463,7 @@ ul.blog-tags a:hover i {
 }
 .blog-photos li img:hover {
 	opacity: 1;
-	box-shadow: 0 0 0 2px #72c02c;
+	box-shadow: 0 0 0 2px #004cac;
 }
 
 /*Blog Latest Tweets*/
@@ -1512,11 +1512,11 @@ ul.blog-tags a:hover i {
 }
 
 .blog-twitter .blog-twitter-inner:hover {
-	border-color: #72c02c;
-	border-top-color: #72c02c;	
+	border-color: #004cac;
+	border-top-color: #004cac;
 }
 .blog-twitter .blog-twitter-inner:hover:after {
-	border-top-color: #72c02c;	
+	border-top-color: #004cac;
 }
 
 .blog-twitter .blog-twitter-inner span.twitter-time {
@@ -1526,7 +1526,7 @@ ul.blog-tags a:hover i {
 }
 
 .blog-twitter .blog-twitter-inner a {
-	color: #72c02c;
+	color: #004cac;
 	text-decoration: none;
 }
 .blog-twitter .blog-twitter-inner a:hover {
@@ -1545,7 +1545,7 @@ ul.blog-tags a:hover i {
 	margin-bottom: 6px;
 }
 .who li i { 
-	color: #72c02c; 
+	color: #004cac;
 	font-size: 13px;
 	margin-right: 8px;
 	position: relative; 
@@ -1612,7 +1612,7 @@ ul.blog-tags a:hover i {
 
 .promo-box:hover strong, 
 .promo-box:hover strong a {
-	color: #72c02c;
+	color: #004cac;
 }
 
 /*Promo Service*/
@@ -1675,7 +1675,7 @@ ul.blog-tags a:hover i {
 }
 
 .info-blocks:hover i.icon-info-blocks {
-	color: #72c02c;
+	color: #004cac;
     -webkit-transition:all 0.2s ease-in-out;
     -moz-transition:all 0.2s ease-in-out;
     -o-transition:all 0.2s ease-in-out;
@@ -1777,7 +1777,7 @@ ul.labels-demo li {
 }
 
 .line-icon-page .item:hover {
-	color: #72c02c;
+	color: #004cac;
 }
 
 /*GLYPHICONS Icons Page
@@ -1810,7 +1810,7 @@ ul.labels-demo li {
 }
 
 .bs-glyphicons li:hover {
-	color: #72c02c;
+	color: #004cac;
 	background-color: #fafafa;
 }
 

@@ -12,7 +12,7 @@ var CirclesMaster = function () {
 		        width:      8,
 		        number:     87,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
 
@@ -24,7 +24,7 @@ var CirclesMaster = function () {
 		        width:      8,
 		        number:     74,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
 
@@ -36,7 +36,7 @@ var CirclesMaster = function () {
 		        width:      8,
 		        number:     65,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
 
@@ -48,7 +48,7 @@ var CirclesMaster = function () {
 		        width:      2,
 		        number:     69,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
 
@@ -72,7 +72,7 @@ var CirclesMaster = function () {
 		        width:      3,
 		        number:     87,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
 
@@ -84,7 +84,7 @@ var CirclesMaster = function () {
 		        width:      3,
 		        number:     74,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
 
@@ -96,7 +96,7 @@ var CirclesMaster = function () {
 		        width:      3,
 		        number:     65,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
 
@@ -108,7 +108,7 @@ var CirclesMaster = function () {
 		        width:      3,
 		        number:     91,
 		        text:       '%',
-		        colors:     ['#eee', '#72c02c'],
+		        colors:     ['#eee', '#004cac'],
 		        duration:   2000
 		    })
         },
@@ -116,7 +116,7 @@ var CirclesMaster = function () {
         //Circles Master v2
         initCirclesMaster2: function () {
 		    var colors = [
-		        ['#D3B6C6', '#9B6BCC'], ['#C9FF97', '#72c02c'], ['#BEE3F7', '#3498DB'], ['#FFC2BB', '#E74C3C']
+		        ['#D3B6C6', '#9B6BCC'], ['#C9FF97', '#004cac'], ['#BEE3F7', '#3498DB'], ['#FFC2BB', '#E74C3C']
 		    ];
 
 		    for (var i = 1; i <= 4; i++) {
